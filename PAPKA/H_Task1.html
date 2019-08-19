@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Домашняя работа</title>
+  </head>
+  <body>
+    <div></div>
+    <script src="jquery-1.10.2.js"></script>
+    <script>
+      $(function() {
+        let container = $("div");
+        container.append("<ul></ul>");
+
+        let list = $("div>ul");
+        for (let i = 0; i < 3; i++) {
+          list.append("<li></li>");
+        }
+      });
+    </script>
+  </body>
+</html>
